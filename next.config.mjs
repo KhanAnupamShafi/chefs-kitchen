@@ -7,7 +7,7 @@ const nextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? "/chefs-kitchen/" : "",
-  basePath: isProd ? "/chefs-kitchen" : "",
+  basePath: process.env.DEPLOYED_GITHUB_PATH || "",
   output: "export",
 };
 
