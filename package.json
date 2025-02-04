@@ -1,7 +1,6 @@
 {
   "name": "crypgo_project",
   "version": "0.1.0",
-  "homepage": "https://khananupamshafi.github.io/chefs-kitchen/",
   "private": true,
   "scripts": {
     "dev": "next dev",
