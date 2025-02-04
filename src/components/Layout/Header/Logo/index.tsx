@@ -8,7 +8,7 @@ const Logo: React.FC = () => {
       href='/'
       className='flex items-center text-black dark:text-white text-2xl font-semibold gap-4'>
       <Image
-        src={`${getImagePrefix()}images/logo/logo.svg`}
+        src={`${getImagePrefix()}images/logo/Logo.svg`}
         alt='logo'
         width={160}
         height={50}
