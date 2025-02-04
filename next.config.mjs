@@ -6,8 +6,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: isProd ? "/chefs-kitchen" : "",
-  assetPrefix: isProd ? "/chefs-kitchen/" : "",
+  basePath: "/chefs-kitchen",
+  assetPrefix: "/chefs-kitchen",
 };
 
 export default nextConfig;
