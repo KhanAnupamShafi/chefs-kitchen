@@ -1,13 +1,15 @@
 {
   "name": "crypgo_project",
   "version": "0.1.0",
+  "homepage": "https://khananupamshafi.github.io/chefs-kitchen",
   "private": true,
   "scripts": {
-    "build": "next build && next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@iconify/icons-ion": "^1.2.10",
