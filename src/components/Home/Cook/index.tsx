@@ -1,4 +1,5 @@
 "use client";
+import { getImagePrefix } from "@/utils/utils";
 import Image from "next/image";
 
 const Cook = () => {
@@ -7,7 +8,7 @@ const Cook = () => {
       <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md'>
         <div className='absolute right-0 bottom-[-18%] hidden lg:block'>
           <Image
-            src={"./images/cook/burger.png"}
+            src={`${getImagePrefix()}images/cook/burger.png`}
             alt='burger-image'
             width={463}
             height={622}
