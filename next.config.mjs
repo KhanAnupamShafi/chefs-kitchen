@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true, // Disable default image optimization
+    unoptimized: true,
   },
   assetPrefix: isProd ? "/chefs-kitchen/" : "",
   basePath: process.env.DEPLOYED_GITHUB_PATH || "",
