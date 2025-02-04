@@ -7,7 +7,6 @@ const nextConfig = {
   },
   output: "export",
   basePath: "/chefs-kitchen",
-  assetPrefix: "/chefs-kitchen/",
 };
 
 export default nextConfig;
